@@ -10,4 +10,4 @@ inputs:
     description: 'Paths to check (optional)'
 runs:
   using: 'docker'
-  image: 'docker://anarcher/kustomize-check-action:master'
+  image: 'docker://anarcher/kustomize-check-action:0.1.0-amedia.1'

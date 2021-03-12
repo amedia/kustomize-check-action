@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	kustBuildAndEvalCmdFmt = "set -o pipefail ; kustomize build %s | kubeval --ignore-missing-schemas  --force-color "
+	kustBuildAndEvalCmdFmt = "set -o pipefail ; kustomize build %s | kubeval --ignore-missing-schemas  --force-color --strict "
 )
 
 type KustBuildAndEval struct {

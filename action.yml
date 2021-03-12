@@ -10,4 +10,4 @@ inputs:
     description: 'Paths to check (optional)'
 runs:
   using: 'docker'
-  image: 'docker://eu.gcr.io/amedia-data-storage-public/amedia/kustomize-check-action:0.1.0-amedia.1'
+  image: 'docker://eu.gcr.io/amedia-data-storage-public/amedia/kustomize-check-action:0.1.0-amedia.3'
